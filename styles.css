@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Licorice&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;800&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+
+  font-family: "Khula", "Helvetica Neue", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 32px 64px;
+}
+
+header h1 {
+  margin: 0;
+  font-family: "Licorice", cursive;
+  /* font-family: "Clicker Script", cursive; */
+}
+
+header nav {
+  flex: 1;
+  justify-content: right;
+  display: flex;
+}
+
+header nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-left: 32px;
+  color: #000000;
+  font-weight: bold;
+  font-family: "Khula";
+  font-weight: 600;
+}
+
+header nav a .fa-brands {
+  font-size: 24px;
+}
+
+h2 {
+  font-family: "Khula";
+  font-weight: 600;
+  font-size: 32px;
+}
+
+p {
+  font-family: "Khula";
+  font-weight: 300;
+  font-size: 22px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 64px;
+  /* max-width: 700px; */
+  align-items: center;
+  flex: 1;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #d1c0a844;
+  padding: 64px;
+}
+
+.footer-icon {
+  margin: 8px;
+  font-size: 32px;
+  text-decoration: none;
+  color: #d1c0a8;
+}
+
+img {
+  width: 100%;
+}
