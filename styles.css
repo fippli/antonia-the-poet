@@ -68,6 +68,8 @@ h2 {
   font-weight: 600;
   font-size: 32px;
   margin-bottom: 0;
+  width: 100%;
+  max-width: 700px;
 }
 
 p {
@@ -109,6 +111,19 @@ footer {
 
 img {
   width: 100%;
+}
+
+.image-wrapper {
+  position: relative;
+  width: 100%;
+}
+.image-text {
+  position: absolute;
+  top: 100px;
+  right: 80px;
+  color: #ffffff;
+  font-family: "Licorice", cursive;
+  font-size: 4rem;
 }
 
 form {
@@ -156,4 +171,8 @@ form button[type="submit"] {
   border-radius: 4px;
   font-family: "Khula", sans-serif;
   font-size: 16px;
+}
+
+.not-on-desktop {
+  display: none;
 }
